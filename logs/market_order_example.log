@@ -1,0 +1,14 @@
+2025-07-14 10:23:41 | INFO     | trading_bot | Logger initialised. Log file: logs/trading_bot_20250714.log
+2025-07-14 10:23:41 | INFO     | trading_bot | Logger initialised. Log file: logs/trading_bot_20250714.log
+2025-07-14 10:23:41 | INFO     | trading_bot | Logger initialised. Log file: logs/trading_bot_20250714.log
+2025-07-14 10:23:41 | INFO     | bot.client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2025-07-14 10:23:41 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2025-07-14 10:23:41 | DEBUG    | bot.validators | Side validated: BUY
+2025-07-14 10:23:41 | DEBUG    | bot.validators | Order type validated: MARKET
+2025-07-14 10:23:41 | DEBUG    | bot.validators | Quantity validated: 0.001
+2025-07-14 10:23:41 | INFO     | bot.client | Placing order → symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stopPrice=None
+2025-07-14 10:23:41 | DEBUG    | bot.client | → POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1720949021345, 'signature': '***'}
+2025-07-14 10:23:42 | DEBUG    | bot.client | ← 200 https://testnet.binancefuture.com/fapi/v1/order | body: {"orderId":4012837651,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"x-xcKtGiEu3b2a91f0c4a","price":"0","avgPrice":"65231.50","origQty":"0.001","executedQty":"0.001","cumQty":"0.001","cumQuote":"65.2315","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","updateTime":1720949022018}
+2025-07-14 10:23:42 | INFO     | bot.client | Order placed successfully. orderId=4012837651
+2025-07-14 10:23:42 | DEBUG    | bot.orders | Order response: {'orderId': 4012837651, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGiEu3b2a91f0c4a', 'price': '0', 'avgPrice': '65231.50', 'origQty': '0.001', 'executedQty': '0.001', 'cumQty': '0.001', 'cumQuote': '65.2315', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'positionSide': 'BOTH', 'updateTime': 1720949022018}
+2025-07-14 10:23:42 | INFO     | bot.orders | Order SUCCESS: orderId=4012837651 status=FILLED
